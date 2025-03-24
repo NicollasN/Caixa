@@ -1,0 +1,17 @@
+---Sistema de Caixa Eletrônico---
+
+-> Sistema que simula um caixa eletrônico
+    1 - Você escolhes as opções entre cadastrar um CPF ou acessar a sua conta com o CPF Cadastrado.
+        * Se o CPF for cadastrado ele vai ser registrado para caso o usuário entre depois no sistema e ele só precise acessar
+        a sua conta, pois o CPF já estar cadastrado
+
+    2 - Depois de realizar uma das opções, o usuário é direcionado para a parte de operações onde ele pode escolher
+    entre depositar, sacar um valor ou sair da sua conta.
+        * Na parte de deposito, o usuário depositar um valor de sua escolha e esse valor é resgistrado no banco de dados.
+        * Na hora de sacar um valor, dependendo do valor o sistema irá verificar no banco se o valor sugerido pelo para saque
+        pode mesmo ser sacado, se caso o valor sugerido for maior que o valor depositado, o saque não será realizado.
+        * Na opção de sair, o usuário sai do sistema e as sua ações dentro do caixa são registradas no banco.
+
+Linguagem utilizada: Python
+Banco de Dados utilizado: SQLite
+Autor: Nicollas Neres Mateus
